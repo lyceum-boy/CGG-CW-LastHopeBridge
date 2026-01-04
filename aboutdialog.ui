@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AboutDialog</class>
+ <widget class="QDialog" name="AboutDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>450</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>450</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog {
+    border-image: url(:/img/metal.png) 0 0 0 0 stretch stretch;
+}
+
+QLabel#labelIconImg {
+    border-image: url(:/img/icon.png) 0 0 0 0 stretch stretch;
+}
+
+QLabel#labelStopImg {
+    border-image: url(:/img/stop.png) 0 0 0 0 stretch stretch;
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" colspan="3">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="labelIconImg">
+       <property name="minimumSize">
+        <size>
+         <width>115</width>
+         <height>115</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>115</width>
+         <height>115</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="topMargin">
+        <number>3</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="labelFirstTitle">
+         <property name="font">
+          <font>
+           <pointsize>25</pointsize>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Володарский</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelSecondTitle">
+         <property name="font">
+          <font>
+           <pointsize>24</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>мост 2026.1.0.0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelBuiltOn">
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Built on Month D Y, H:M</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="2" rowspan="2">
+    <widget class="QLabel" name="labelStopImg">
+     <property name="minimumSize">
+      <size>
+       <width>65</width>
+       <height>150</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>65</width>
+       <height>150</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLabel" name="labelPoweredBy">
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Powered by OpenGL 3.3 &amp; Qt 6.8.3</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="pushButtonClose">
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>100</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Закрыть</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <layout class="QFormLayout" name="formLayout">
+     <property name="formAlignment">
+      <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+     </property>
+     <property name="verticalSpacing">
+      <number>12</number>
+     </property>
+     <property name="leftMargin">
+      <number>5</number>
+     </property>
+     <item row="0" column="0">
+      <widget class="QLabel" name="labelDeveloper">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Developer:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="labelDeveloperVal">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Developer info</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="labelGitHub">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>GitHub:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="labelGitHubVal">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>GitHub info</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="labelEmail">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Email:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="labelEmailVal">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Email info</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

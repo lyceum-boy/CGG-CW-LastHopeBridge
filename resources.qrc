@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="img/icon.ico">assets/img/icon.ico</file>
+        <file alias="img/icon.png">assets/img/icon.png</file>
+        <file alias="img/stop.png">assets/img/stop.png</file>
+        <file alias="img/metal.png">assets/img/metal.png</file>
+        <file alias="audio/boat.mp3">assets/audio/boat.mp3</file>
+        <file alias="audio/bridge.mp3">assets/audio/bridge.mp3</file>
+        <file alias="audio/bus-1.mp3">assets/audio/bus-1.mp3</file>
+        <file alias="audio/bus-2.mp3">assets/audio/bus-2.mp3</file>
+        <file alias="audio/bus-3.mp3">assets/audio/bus-3.mp3</file>
+        <file alias="audio/car-1.mp3">assets/audio/car-1.mp3</file>
+        <file alias="audio/car-2.mp3">assets/audio/car-2.mp3</file>
+        <file alias="audio/car-3.mp3">assets/audio/car-3.mp3</file>
+        <file alias="audio/river.mp3">assets/audio/river.mp3</file>
+        <file alias="audio/road.mp3">assets/audio/road.mp3</file>
+        <file alias="models/cube.obj">assets/models/cube.obj</file>
+        <file alias="models/bus.obj">assets/models/bus.obj</file>
+        <file alias="models/bus.mtl">assets/models/bus.mtl</file>
+        <file alias="models/car.obj">assets/models/car.obj</file>
+        <file alias="models/car.mtl">assets/models/car.mtl</file>
+        <file alias="models/boat.obj">assets/models/boat.obj</file>
+        <file alias="models/boat.mtl">assets/models/boat.mtl</file>
+        <file alias="models/texture.jpg">assets/models/texture.jpg</file>
+        <file alias="models/texture_N.jpg">assets/models/texture_N.jpg</file>
+        <file alias="models/texture_S.jpg">assets/models/texture_S.jpg</file>
+        <file alias="textures/brick.png">assets/textures/brick.png</file>
+        <file alias="textures/road.png">assets/textures/road.png</file>
+        <file alias="textures/rock.png">assets/textures/rock.png</file>
+        <file alias="textures/steel.png">assets/textures/steel.png</file>
+        <file alias="textures/stone.png">assets/textures/stone.png</file>
+        <file alias="textures/water.png">assets/textures/water.png</file>
+        <file alias="fonts/MoscowMetro.otf">assets/fonts/MoscowMetro.otf</file>
+        <file alias="fonts/PionerSans-Medium.ttf">assets/fonts/PionerSans-Medium.ttf</file>
+        <file alias="fonts/PionerSans-Regular.ttf">assets/fonts/PionerSans-Regular.ttf</file>
+    </qresource>
+</RCC>
